@@ -1,0 +1,46 @@
+h3{
+    font-family: 'Courier New', Courier, monospace;
+   }
+   h3::before{
+     content:'';
+     position: absolute;
+     width:130px;
+     height:3px;
+     background-color:black;
+     top:123%;
+     left:45%;
+   }
+   body{
+      margin: 0;
+      font-family: sans-serif;
+    }
+   .album{
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-position: center;  
+      background-size: cover;
+      background-color: rgb(167, 164, 164);
+    }
+   .album h3{
+      color: black;
+      font-size: 5em;
+      margin-top: 0;
+      margin-bottom: 0.5em;
+    }
+.row{
+  background-color: white;
+}    
+.row h5{
+  margin-left: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+   

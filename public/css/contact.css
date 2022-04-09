@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family:poppins;
+}
+.contact{
+    position: relative;
+    min-height: 60vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color:rgb(172, 172, 172);
+}  
+.contact .content{
+    max-width: 800px;
+    text-align: center;   
+}
+.contact .content h2{
+    font-size: 60px;
+    font-weight: 500;
+    color: black;
+} 
+.contain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.contain .contactInfo{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+}
+.contain .contactInfo .box{
+    position: relative;
+    padding: 30px 0;
+    display: flex;
+}
+.contain .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.contain .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color:black;
+    flex-direction: column;
+    font-weight: 300;
+}
+.contain .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #020202;
+}
+.contain .contactInfo .box .text p{
+    font-weight: 500;
+    color: #020202;
+}
+
+
+
+
+form{
+
+    background-color: black;
+    text-align: center;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background: grey;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover{
+    background-color: #444343;
+    cursor: pointer;
+}

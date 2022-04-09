@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin:auto;
+}
+.box{
+ display: flex;
+ flex-direction: row;
+ margin: 40px 20px 0 20px;
+ justify-content: space-between;
+}
+
+.pic{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+  
+}
+
+.pic img{
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 769px){
+    .container .box{
+   flex-direction: column;
+  }
+
+.container .box .pic{
+  width: 100%;
+}
+}
+
+h3{
+ font-family: 'Courier New', Courier, monospace;
+}
+h3::before{
+  content:'';
+  position: absolute;
+  width:130px;
+  height:3px;
+  background-color:black;
+  top:120%;
+  left:45%;
+}
+h4{
+   font-weight: bolder;
+   font-family:'Courier New', Courier, monospace;
+   color:black;
+ }
+ body{
+   margin: 0;
+   font-family: sans-serif;
+ }
+.album{
+   width: 100%;
+   height: 60vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-position: center;  
+   background-size: cover;
+   background-color: white;
+ }
+.album h3{
+   color: black;
+   font-size: 5em;
+   margin-top: 0;
+   margin-bottom: 0.5em;
+ }
+.album h4{
+     font-size:2em;
+ }
